@@ -29,4 +29,12 @@ eval("window.onload = function () {\r\n  let users = document.createElement('h1'
 /******/ 	__webpack_modules__["./src/Chris.js"]();
 /******/ 	
 /******/ })()
+document.addEventListener('touchstart', function () {
+  function audioAutoPlay() {
+      var audio = document.getElementById('audio');
+          audio.play();
+  }
+  audioAutoPlay();
+});
+
 ;
