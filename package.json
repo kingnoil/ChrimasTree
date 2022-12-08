@@ -1,0 +1,32 @@
+{
+  "name": "Christmas-main",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch", 
+    "start": "webpack serve"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingnoil/ChrimasTree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingnoil/ChrimasTree/issues"
+  },
+  "homepage": "https://github.com/kingnoil/ChrimasTree#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.5"
+  }
+}
